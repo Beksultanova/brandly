@@ -1,1 +1,45 @@
 @import "vars";
+.categories {
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    &__item {
+        width: 359px;
+        height: 419px;
+        text-align: center;
+        &:nth-child(1) {
+            background-image: url(../img/img1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        &:nth-child(2) {
+            background-image: url(../img/img2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        &:nth-child(3) {
+            background-image: url(../img/img3.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    &__link {
+        font-family: $main-font;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: $light;
+        text-decoration: none;
+        position: relative;
+        top: 50%;
+        z-index: 2;
+    }
+}
