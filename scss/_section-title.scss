@@ -1,0 +1,10 @@
+@import "vars";
+.section-title {
+    font-family: $main-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: $dark;
+}
